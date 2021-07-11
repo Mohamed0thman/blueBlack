@@ -1,0 +1,42 @@
+
+product variations options
+
+id   optionName
+1       size   
+2       color
+
+
+product variations options values
+
+id      valueName       value_Code
+1       S
+2       M
+3       L
+
+4       Red                 #33333
+5       Green               #55555
+
+///////////////////////////////
+so the  product combination becomes 
+S-Red
+S-Grean
+M-Red
+M-Grean
+L-Red
+L-Grean
+
+product combination
+
+id      combination_string      sku     price   
+1               S-Red          sescd      2
+1               S-Grean        sescd      2
+1               S-Red          sescd      2
+1               S-Red          sescd      2
+1               S-Red          sescd      2
+
+PRODUCT STOCK
+
+id      combination_id      totalStock      unitPrice       totalPrice
+1       1                   10                  2               20
+
+
